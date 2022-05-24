@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <PtsCanvas
       background="black"
-      style={{ height: "100%", width: "100%" }}
+      style={{ position: "fixed", height: "100%", width: "100%" }}
       onAnimate={onAnimate}
     />
   );
